@@ -1,0 +1,238 @@
+@media(max-width:780px){
+    .btn button{
+        position: relative;
+        right:600px;
+    }
+    .nav p{
+        font-size: 10px;
+    }
+    .sec-1{
+        margin-top: 50px;
+    }
+    .time p{
+        font-size: 20px;
+    }
+    .time h1{
+        font-size: 30px;
+    }
+    .timings p{
+        font-size: 14px;
+    }
+    .sec-2{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content h1{
+        font-size: 20px;
+    }
+    .sec-3{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .sec-3 span{
+        position: relative;
+        right:230px;
+        font-size: 30px;
+    }
+    .sec-3 h1{
+        font-size: 30px;
+    }
+    .sec-4{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .con p{
+        font-size: 20px;
+    }
+    .con h1{
+        font-size: 30px;
+    }
+    .pizza h1{
+        font-size: 10px;
+    }
+    .pizza p{
+        font-size: 10px;
+    }
+    .main img{
+        height:450px;
+    }
+    .box{
+        top:100px;
+        width:300px;
+        height: 260px;
+        left:450px;
+    }
+    .sec-5{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .chef p{
+        font-size: 10px;
+        
+    }
+    .cheff{
+        margin-top: 30px;
+    }
+    .chef h2{
+        font-size: 30px;
+    }
+    .chef1 img{
+        height: 200px;
+    }
+   
+}
+
+@media(max-width:670px){
+    .nav{
+        display: none;
+       
+    }
+    .sec-1{
+        margin-top: 50px;
+    }
+    .time p{
+        font-size: 10px;
+    }
+    .time h1{
+        font-size: 20px;
+    }
+    .timings p{
+        font-size: 10px;
+    }
+    .sec-2{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .content p{
+        font-size: 6px;
+    }
+    .content h1{
+        font-size: 11px;
+    }
+    .sec-4{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .con p{
+        font-size: 10px;
+        position: relative;
+        right: 20px;
+    }
+    .con h1{
+        font-size: 20px;
+        position: relative;
+        right: 20px;
+    }
+    .pizza h1{
+        font-size: 10px;
+    }
+    .pizza p{
+        font-size: 10px;
+    }
+    .main img{
+        height:450px;
+    }
+    .box{
+        top:100px;
+        width:310px;
+        height: 260px;
+        left:340px;
+    }
+
+}
+@media(max-width:465px){
+    .hero1 h1{
+        font-size: 30px;
+    }
+    .sec-1{
+        margin-top: 50px;
+    }
+    .time p{
+        font-size: 8px;
+    }
+    .time h1{
+        font-size: 15px;
+    }
+    .timings p{
+        font-size: 8px;
+    }
+    .workimg img{
+        width:130px;
+    }
+    .jimg img{
+        width:100px;
+
+    }
+    .sec-3{
+        display: none;
+    }
+
+    .con p{
+        font-size: 10px;
+        position: relative;
+        right: 190px;
+    }
+    .con h1{
+        font-size: 20px;
+        position: relative;
+        right: 190px;
+    }
+    .pizza h1{
+        font-size: 10px;
+    }
+    .pizza p{
+        font-size: 10px;
+    }
+    .main img{
+        height:450px;
+        width:470px;
+    }
+    .box{
+        top:100px;
+        width:310px;
+        height: 260px;
+        left:150px;
+    }
+    .chef1 img{
+        height: 100px;
+    }
+    .chef1 h3{
+        font-size: 8px;
+        position: relative;
+        right:40px;
+
+    }
+    .chef1 p{
+        font-size: 8px;
+    }
+    .flogo img{
+        width: 100px;
+
+
+    }
+    .fcon{
+        font-size: 8px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:320px){
+    .workimg img{
+        width:70px;
+    }
+    .jimg img{
+        width:50px;
+
+    }
+    .fcon{
+        font-size: 5px;
+    }
+    footer{
+        font-size: 7px;
+    }
+}

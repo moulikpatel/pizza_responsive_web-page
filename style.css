@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+.head-1{
+    min-width: 100vw;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-1 img{
+    width:60px;
+    margin-left: 20px;
+}
+.head-1 h3{
+    margin-right: 20px;
+    color: white;
+    font-weight: 300;
+}
+.head-1 span{
+    color: #BC8C4C;
+}
+.head-2{
+    max-width: 100vw;
+    max-height: 50px;
+    background-color: #212529;
+    margin-top: 1px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav{
+    display: flex;
+    margin-left:190px;
+    gap: 50px;
+    
+
+}
+.nav p{
+    cursor: pointer;
+
+}
+.nav p:hover{
+    color: grey;
+}
+.btn button{
+    margin-right: 40px;
+    height:30px;
+    width:100px;
+    background-color: #BC8C4C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.btn button:hover{
+    background-color:#c28739;
+}
+.img1{
+    position: absolute;
+    width:100vw;
+    opacity: 0.33;
+    height: 100vh;
+}
+
+.hero1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.hero1 img{
+    height:190px;
+    
+}
+.hero1 p{
+    color:black;
+    font-size:20px;
+    margin-top: 30px;
+    font-weight:400;
+}
+.hero1 h1{
+    color:black;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+.hero1 button,.time button{
+    margin-top: 30px;
+    height:50px;
+    width:150px;
+    background-color: #BC8C4C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.sec-1{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    transform: translatex(100%);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.sec-1.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+}
+.time p{
+    font-size: 25px;
+    color: grey;
+    font-weight: 400;
+}
+.time h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.timings{
+    margin-top: 40px;
+}
+.timings p{
+    color: rgba(104, 102, 102, 0.823);
+    font-weight: 600;
+    margin-top: 8px;
+}
+.journey{
+   display:flex;
+   justify-content: space-around;
+   height:100vh;
+   align-items: center;
+}
+.jimg{
+    display: flex;
+    gap:10px
+}
+.content{
+    width:400px;
+    text-align: justify;
+
+}
+.content p{
+    font-size: 25px;
+    color: grey;
+    font-weight: 400;
+}
+.content h1, .heading h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+.sec-2{
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.sec-2.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+
+}
+.sec-3{
+    overflow: hidden;
+}
+.sec3img{
+    width:100vw;
+    height:100vh;
+    opacity: 0.3;
+    position:absolute;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.heading p{
+    font-size: 25px;
+    color: grey;
+    font-weight: 400;
+
+}
+.items{
+    margin-top: 50px;
+}
+.food{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.food img{
+    height:100px;   
+}
+.food hr{
+margin-top: 10px;
+width:240px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.fooditems{
+margin-top: 50px;
+display: flex;
+flex-wrap: wrap;
+}
+.sec-3{
+    transform: scale(.7);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.sec-3.show-animate{
+    transform: scale(1);
+    opacity: 1;
+}
+.sec-3 span{
+    margin-left: 550px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.sec-3 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    text-transform:capitalize;
+    font-weight: 600;
+}
+
+.imgfood img{
+    height: 250px;
+    margin-left: 10px;
+
+}
+.foddname{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.price p{
+    width: 300px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.main img{
+    margin-top: 50px;
+    width:100vw;
+    height:100vh;
+    position: absolute;
+}
+.con{
+    position:relative;
+    top:100px;
+    right:-300px;
+    text-align: center;
+    color: white;
+}
+.con p,.chef p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.con h1,.chef h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.box{
+    width:500px;
+    height:350px;
+    background-color:white;
+    position: relative;
+    top:150px;
+    left: 700px;
+}
+.me{
+   display: flex;
+  padding-top: 30px;
+}
+.pricee{
+    position: relative;
+    top:27px;
+    left:10px;
+}
+.sec-4{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 2s ease;
+
+}
+.sec-4.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+}
+.sec-5{
+    width:100vw;
+    height: 100vh;
+    margin-top: 250px;
+    overflow: hidden;
+}
+.sec-5{
+    overflow: hidden;
+    transform: translatey(-50%);
+    opacity: 0;
+    transition: all 2s ease;
+
+}
+.sec-5.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+}
+.chef{
+    text-align: center;
+}
+.cheff{
+    display: flex;
+    justify-content: space-around;
+}
+.chef1{
+    margin-left: 30px;
+
+}
+.chef1 img{
+    border-radius: 50%;
+    height: 250px;
+
+}
+.chef1 h3{
+    margin-top: 10px;
+    margin-left:70px;
+}
+.chef1 p{
+    margin-left: 20px;
+    text-align:justify;
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    color: #BC8C4C;
+}
+.bimg img{
+    margin-left: 30px;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.form input{
+    width:350px;
+    height: 70px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.form button{
+    width:350px;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #BC8C4C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form p{
+    color: grey;
+    margin-top: 7px;
+}
+.footer{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.flogo img{
+    width: 150px;
+}
+.fcon{
+    color: grey;
+    display: flex;
+   gap: 40px;
+   margin-right: 70px;
+}
+.fcon p{
+    font-weight: 600;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #212529;
+    margin-top: 1px;
+    height: 40px;
+    color:gray;
+}
+.ficons i{
+    margin-left:50px;
+}
+.sec-6{
+transform: translatey(100%);
+opacity: 0;
+transition: all 1s ease;
+}
+.sec-6.show-animate{
+    transform: translate(0);
+    opacity: 1;
+}
